@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0; 
+}
+/* navbar */
+.navbar{
+    background-color: lightgrey;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;  
+}
+.center{
+    width: 80%;
+    margin: auto; 
+}
+.navbarho
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-img{
+    width: 12%; 
+}
+.navbar-icons
+{
+    width: 10%;  
+}
+.navbar-between 
+{
+    width: 78%;
+}
+.navbar-between ul li{
+    list-style-type:none;
+    font-size: large;
+
+}
+.navbar-icons ul li{
+    list-style-type:none;   
+}
+.navbar-between ul li a{
+    text-decoration: none;
+}
+.navbar-between ul li i:hover{
+    color: red;
+   
+}
+.navbar-between ul li a:hover{
+    color: white;
+    border:  4px solid black;
+    border-radius: 500px;
+    background-color:black;
+   
+}
+.navbar-icons ul 
+{ 
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-icons ul li:hover
+{ 
+    color: blue;
+    cursor: pointer;
+}
+.navbar-between ul
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Information Technology */
+
+.left-right
+{
+    display: flex;
+    align-items: center;    
+    width: 100%;
+    height: 90vh;   
+
+}
+.right img
+{
+    width: 100%;
+    height: 100%;
+}
+.left
+{
+    width: 47%;  
+    height: 50%;
+}
+.right
+{
+        width: 53%;
+        height: 50%;
+}
+.tech{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 65px;
+    color: #1F2E35;
+}
+.nology{
+    
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 65px;
+    color:#EE4248;
+
+}
+.team{
+    color: #30444E;
+    font-size: 20px;
+    line-height: 40px;
+}
+.Read{
+    box-shadow: 5px 10px 15px lightgrey;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: #EE4248;
+    color: white;
+    border: none;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.Read:hover{
+    background-color: #30444E;
+}
+
+/* welcome to DNS  */
+
+.welcome-dns
+{
+    background-color:  #F7F7F7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.span{
+    text-align: start;
+    color: #EE4248;
+}
+.line{
+    line-height: 32px;  
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.Welcome{
+    font-size: 40px;
+    display: inline-block;
+    padding-top: 77px;
+}
+.span1{
+    color: #EE4248;
+}
+
+/* Product and Service */
+
+.Our-Product
+{
+    width: 30%;
+}
+.and{
+    text-align: center;
+    margin: 80px 0px;
+    
+    color:#1F2E35 ;
+}
+.img3{
+    display: flex;
+    justify-content: space-between;
+}
+.text-product{
+    font-size: 21px;
+    color: #30444E;
+}
+.our{
+    margin: 15px 0px;
+    color: #EE4248;
+}
+/* Contact */
+.Contact{
+    margin-top: 105px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+  
+}
+.email{
+    padding-right: 80px;
+}
+.con{
+    margin-bottom:  30px;
+    padding-top: 10px;
+}
+.color{
+    color: #263238;
+    line-height: 35px;
+}
+.ruko{
+    line-height: 35px;
+    opacity: 0.7;
+
+}
+.ph{
+    margin-top: 40px;
+    line-height: 35px;
+    opacity: 0.7;
+}
+    
+.fax{
+   
+    line-height: 35px;
+    opacity: 0.7;
+
+}
+.email img{
+    margin-bottom:20px;  
+}
+
+/* end  */
+
+.end-navbar{
+    background-color: #EE4248;
+    width: 100%;
+    height: 10vh;
+    margin-top: 40px;
+  
+}
+.copy2022{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight:400;
+    padding: 25px 0px;
+}
